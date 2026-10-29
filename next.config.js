@@ -2,7 +2,7 @@
 const isGithub = process.env.DEPLOY_TARGET === 'github';
 const nextConfig = {
   output: 'export',
-  basePath: isGithub ? '/portofolio-web' : '',
+  basePath: isGithub ? '/portfolio-web' : '',
   images: { unoptimized: true },
   trailingSlash: true,
 };
